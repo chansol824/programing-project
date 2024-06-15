@@ -51,7 +51,7 @@ class OBS_Control:
     def control(self):
         # 기본 속도 및 조향 각도 초기화
         speed = 0.3
-        steer = 0
+        steer = -20
 
         if not self.obsC and self.obsR:  # 오른쪽 벽 따라가기
             speed = 0.35
